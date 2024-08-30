@@ -1,3 +1,9 @@
+function generateRandomLink() {
+    const baseUrl = 'https://valhndsm.github.io/Proposalv2/';
+    const randomString = generateRandomString(5);
+    return `${baseUrl}?id=${randomString}`;
+}
+
 
 document.oncontextmenu = () => {
 	alert("Don't right click")
