@@ -1,5 +1,8 @@
 
-
+document.oncontextmenu = () => {
+	alert("Don't right click")
+	return false
+}
 
 const comeback = document.getElementById("btn2");
 const yes = document.getElementById("btn1");
